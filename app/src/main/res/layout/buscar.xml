@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:padding="16dp"
+        android:orientation="horizontal"
+        android:layout_height="80dp">
+        <EditText
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:id="@+id/buscaID"/>
+        <Button
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Buscar"
+            android:id="@+id/buscaBtn"/>
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/buscaLstResultado"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <TextView
+        android:id="@+id/buscaMensaje"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="[No hay resultados]"/>
+
+</LinearLayout>

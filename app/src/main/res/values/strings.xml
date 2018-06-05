@@ -1,0 +1,769 @@
+<resources>
+    <string name="app_name">ProyectoFinal</string>
+    <string-array name="opciones">
+        <item>Nuevo Sitio Turistico</item>
+        <item>Mis Sitios</item>
+        <item>Buscar</item>
+        <item>Acerca de</item>
+    </string-array>
+
+    <string-array name="DEPARTAMENTOS">
+        <item>Guatemala</item>
+        <item>El Progreso</item>
+        <item>Sacatepéquez</item>
+        <item>Chimaltenango</item>
+        <item>Escuintla</item>
+        <item>Santa Rosa</item>
+        <item>Sololá</item>
+        <item>Totonicapán</item>
+        <item>Quetzaltenango</item>
+        <item>Suchitepéquez</item>
+        <item>Retalhuleu</item>
+        <item>San Marcos</item>
+        <item>Huehuetenango</item>
+        <item>Quiché</item>
+        <item>Baja Verapaz</item>
+        <item>Alta Verapaz</item>
+        <item>Petén</item>
+        <item>Izabal</item>
+        <item>Zacapa</item>
+        <item>Chiquimula</item>
+        <item>Jalapa</item>
+        <item>Jutiapa</item>
+    </string-array>
+
+    <string-array name="dp1">
+        <item>Guatemala</item>
+        <item>Santa Catarina Pinula</item>
+        <item>San José Pinula</item>
+        <item>San José del Golfo</item>
+        <item>Palencia</item>
+        <item>Chinautla</item>
+        <item>San Pedro Ayampuc</item>
+        <item>Mixco</item>
+        <item>San Pedro Sacatepéquez</item>
+        <item>San Juan Sacatepéquez</item>
+        <item>San Raymundo</item>
+        <item>Chuarrancho</item>
+        <item>Fraijanes</item>
+        <item>Amatitlán</item>
+        <item>Villa Nueva</item>
+        <item>Villa Canales</item>
+        <item>Petapa</item>
+    </string-array>
+    <string-array name="dp2">
+        <item>Guastatoya</item>
+        <item>Morazán</item>
+        <item>San Agustín Acasaguastlán</item>
+        <item>San Cristóbal Acasaguastlán</item>
+        <item>El Jícaro</item>
+        <item>Sansare</item>
+        <item>Sanarate</item>
+        <item>San Antonio la Paz</item>
+    </string-array>
+    <string-array name="dp3">
+        <item>Antigua Guatemala</item>
+        <item>Jocotenango</item>
+        <item>Pastores</item>
+        <item>Sumpango</item>
+        <item>Santo Domingo Xenacoj</item>
+        <item>Santiago Sacatepéquez</item>
+        <item>San Bartolomé Milpas Altas</item>
+        <item>San Lucas Sacatepéquez</item>
+        <item>Santa Lucía Milpas Altas</item>
+        <item>Magdalena Milpas Altas</item>
+        <item>Santa María de Jesús</item>
+        <item>Ciudad Vieja</item>
+        <item>San Miguel Dueñas</item>
+        <item>Alotenango</item>
+        <item>San Antonio Aguas Calientes</item>
+        <item>Santa Catarina Barahona</item>
+    </string-array>
+    <string-array name="dp4">
+        <item>Chimaltenango</item>
+        <item>San José Poaquil</item>
+        <item>San Martín Jilotepeque</item>
+        <item>Comalapa</item>
+        <item>Santa Apolonia</item>
+        <item>Tecpán Guatemala</item>
+        <item>Patzún</item>
+        <item>Pochuta</item>
+        <item>Patzicía</item>
+        <item>Santa Cruz Balanyá</item>
+        <item>Acatenango</item>
+        <item>Yepocapa</item>
+        <item>San Andrés Itzapa</item>
+        <item>Parramos</item>
+        <item>Zaragoza</item>
+        <item>El Tejar</item>
+    </string-array>
+    <string-array name="dp5">
+        <item>Escuintla</item>
+        <item>Santa Lucía Cotzumalguapa</item>
+        <item>La Democracia</item>
+        <item>Siquinalá</item>
+        <item>Masagua</item>
+        <item>Tiquisate</item>
+        <item>La Gomera</item>
+        <item>Guanagazapa</item>
+        <item>San José</item>
+        <item>Iztapa</item>
+        <item>Palín</item>
+        <item>San Vicente Pacaya</item>
+        <item>Nueva Concepción</item>
+    </string-array>
+    <string-array name="dp6">
+        <item>Cuilapa</item>
+        <item>Barberena</item>
+        <item>Santa Rosa de Lima</item>
+        <item>Casillas</item>
+        <item>San Rafael las Flores</item>
+        <item>Oratorio</item>
+        <item>San Juan Tecuaco</item>
+        <item>Chiquimulilla</item>
+        <item>Taxisco</item>
+        <item>Santa María Ixhuatán</item>
+        <item>Guazacapán</item>
+        <item>Santa Cruz Naranjo</item>
+        <item>Pueblo Nuevo Viñas</item>
+        <item>Nueva Santa Rosa</item>
+    </string-array>
+    <string-array name="dp7">
+        <item>Sololá</item>
+        <item>San José Chacayá</item>
+        <item>Santa María Visitación</item>
+        <item>Santa Lucía Utatlán</item>
+        <item>Nahualá</item>
+        <item>Santa Catarina Ixtahuacán</item>
+        <item>Santa Clara la Laguna</item>
+        <item>Concepción</item>
+        <item>San Andrés Semetabaj</item>
+        <item>Panajachel</item>
+        <item>Santa Catarina Palopó</item>
+        <item>San Antonio Palopó</item>
+        <item>San Lucas Tolimán</item>
+        <item>Santa Cruz la Laguna</item>
+        <item>San Pablo la Laguna</item>
+        <item>San Marcos la Laguna</item>
+        <item>San Juan la Laguna</item>
+        <item>San Pedro la Laguna</item>
+        <item>Santiago Atitlán</item>
+    </string-array>
+    <string-array name="dp8">
+        <item>Totonicapán</item>
+        <item>San Cristóbal Totonicapán</item>
+        <item>San Francisco el Alto</item>
+        <item>San Andrés Xecul</item>
+        <item>Momostenango</item>
+        <item>Santa María Chiquimula</item>
+        <item>Santa Lucía la Reforma</item>
+        <item>San Bartolo</item>
+    </string-array>
+    <string-array name="dp9">
+        <item>Quetzaltenango</item>
+        <item>Salcajá</item>
+        <item>Olintepeque</item>
+        <item>San Carlos Sija</item>
+        <item>Sibilia</item>
+        <item>Cabricán</item>
+        <item>Cajolá</item>
+        <item>San Miguel Siguilá</item>
+        <item>Ostuncalco</item>
+        <item>San Mateo</item>
+        <item>Concepción Chiquirichapa</item>
+        <item>San Martín Sacatepéquez</item>
+        <item>Almolonga</item>
+        <item>Cantel</item>
+        <item>Huitán</item>
+        <item>Zunil</item>
+        <item>Colomba</item>
+        <item>San Francisco la Unión</item>
+        <item>El Palmar</item>
+        <item>Coatepeque</item>
+        <item>Génova</item>
+        <item>Flores Costa Cuca</item>
+        <item>La Esperanza</item>
+        <item>Palestina de los Altos</item>
+    </string-array>
+    <string-array name="dp10">
+        <item>Mazatenango</item>
+        <item>Cuyotenango</item>
+        <item>San Francisco Zapotitlán</item>
+        <item>San Bernardino</item>
+        <item>San José el Idolo</item>
+        <item>Santo Domingo Suchitepéquez</item>
+        <item>San Lorenzo</item>
+        <item>Samayac</item>
+        <item>San Pablo Jocopilas</item>
+        <item>San Antonio Suchitepéquez</item>
+        <item>San Miguel Panán</item>
+        <item>San Gabriel</item>
+        <item>Chicacao</item>
+        <item>Patulul</item>
+        <item>Santa Bárbara</item>
+        <item>San Juan Bautista</item>
+        <item>Santo Tomás la Unión</item>
+        <item>Zunilito</item>
+        <item>Pueblo Nuevo</item>
+        <item>Río Bravo</item>
+        <item>San José La Máquina</item>
+    </string-array>
+    <string-array name="dp11">
+        <item>Retalhuleu</item>
+        <item>San Sebastián</item>
+        <item>Santa Cruz Muluá</item>
+        <item>San Martín Zapotitlán</item>
+        <item>San Felipe</item>
+        <item>San Andrés Villa Seca</item>
+        <item>Champerico</item>
+        <item>Nuevo San Carlos</item>
+        <item>El Asintal</item>
+    </string-array>
+    <string-array name="dp12">
+        <item>San Marcos</item>
+        <item>San Pedro Sacatepéquez</item>
+        <item>San Antonio Sacatepéquez</item>
+        <item>Comitancillo</item>
+        <item>San Miguel Ixtahuacán</item>
+        <item>Concepción Tutuapa</item>
+        <item>Tacaná</item>
+        <item>Sibinal</item>
+        <item>Tajumulco</item>
+        <item>Tejutla</item>
+        <item>San Rafael Pié de la Cuesta</item>
+        <item>Nuevo Progreso</item>
+        <item>El Tumbador</item>
+        <item>El Rodeo</item>
+        <item>Malacatán</item>
+        <item>Catarina</item>
+        <item>Ayutla</item>
+        <item>Ocós</item>
+        <item>San Pablo</item>
+        <item>El Quetzal</item>
+        <item>La Reforma</item>
+        <item>Pajapita</item>
+        <item>Ixchiguán</item>
+        <item>San José Ojetenán</item>
+        <item>San Cristóbal Cucho</item>
+        <item>Sipacapa</item>
+        <item>Esquipulas Palo Gordo</item>
+        <item>Río Blanco</item>
+        <item>San Lorenzo</item>
+        <item>La Blanca</item>
+    </string-array>
+    <string-array name="dp13">
+        <item>Huehuetenango</item>
+        <item>Chiantla</item>
+        <item>Malacatancito</item>
+        <item>Cuilco</item>
+        <item>Nentón</item>
+        <item>San Pedro Necta</item>
+        <item>Jacaltenango</item>
+        <item>Soloma</item>
+        <item>Ixtahuacán</item>
+        <item>Santa Bárbara</item>
+        <item>La Libertad</item>
+        <item>La Democracia</item>
+        <item>San Miguel Acatán</item>
+        <item>San Rafael la Independencia</item>
+        <item>Todos Santos Cuchumatán</item>
+        <item>San Juan Atitán</item>
+        <item>Santa Eulalia</item>
+        <item>San Mateo Ixtatán</item>
+        <item>Colotenango</item>
+        <item>San Sebastián Huehuetenango</item>
+        <item>Tectitán</item>
+        <item>Concepción Huista</item>
+        <item>San Juan Ixcoy</item>
+        <item>San Antonio Huista</item>
+        <item>San Sebastián Coatán</item>
+        <item>Barillas</item>
+        <item>Aguacatán</item>
+        <item>San Rafael Petzal</item>
+        <item>San Gaspar Ixchil</item>
+        <item>Santiago Chimaltenango</item>
+        <item>Santa Ana Huista</item>
+        <item>Unión Cantinil</item>
+    </string-array>
+    <string-array name="dp14">
+        <item>Santa Cruz del Quiché</item>
+        <item>Chiché</item>
+        <item>Chinique</item>
+        <item>Zacualpa</item>
+        <item>Chajul</item>
+        <item>Chichicastenango</item>
+        <item>Patzité</item>
+        <item>San Antonio Ilotenango</item>
+        <item>San Pedro Jocopilas</item>
+        <item>Cunén</item>
+        <item>San Juan Cotzal</item>
+        <item>Joyabaj</item>
+        <item>Nebaj</item>
+        <item>San Andrés Sajcabajá</item>
+        <item>Uspantán</item>
+        <item>Sacapulas</item>
+        <item>San Bartolomé Jocotenango</item>
+        <item>Canillá</item>
+        <item>Chicamán</item>
+        <item>Ixcán</item>
+        <item>Pachalum</item>
+    </string-array>
+    <string-array name="dp15">
+        <item>Salamá</item>
+        <item>San Miguel Chicaj</item>
+        <item>Rabinal</item>
+        <item>Cubulco</item>
+        <item>Granados</item>
+        <item>El Chol</item>
+        <item>San Jerónimo</item>
+        <item>Purulhá</item>
+    </string-array>
+    <string-array name="dp16">
+        <item>Cobán</item>
+        <item>Santa Cruz Verapaz</item>
+        <item>San Cristóbal Verapaz</item>
+        <item>Tactic</item>
+        <item>Tamahú</item>
+        <item>Tucurú</item>
+        <item>Panzós</item>
+        <item>Senahú</item>
+        <item>San Pedro Carchá</item>
+        <item>San Juan Chamelco</item>
+        <item>Lanquín</item>
+        <item>Cahabón</item>
+        <item>Chisec</item>
+        <item>Chahal</item>
+        <item>Fray Bartolomé de las Casas</item>
+        <item>Santa Catalina la Tinta</item>
+        <item>Raxruhá</item>
+    </string-array>
+    <string-array name="dp17">
+        <item>Flores</item>
+        <item>San José</item>
+        <item>San Benito</item>
+        <item>San Andrés</item>
+        <item>La Libertad</item>
+        <item>San Francisco</item>
+        <item>Santa Ana</item>
+        <item>Dolores</item>
+        <item>San Luis</item>
+        <item>Sayaxché</item>
+        <item>Melchor de Mencos</item>
+        <item>Poptún</item>
+        <item>Las Cruces</item>
+        <item>El Chal</item>
+    </string-array>
+    <string-array name="dp18">
+        <item>Puerto Barrios</item>
+        <item>Livingston</item>
+        <item>El Estor</item>
+        <item>Morales</item>
+        <item>Los Amates</item>
+    </string-array>
+    <string-array name="dp19">
+        <item>Zacapa</item>
+        <item>Estanzuela</item>
+        <item>Río Hondo</item>
+        <item>Gualán</item>
+        <item>Teculután</item>
+        <item>Usumatlán</item>
+        <item>Cabañas</item>
+        <item>San Diego</item>
+        <item>La Unión</item>
+        <item>Huité</item>
+        <item>San Jorge</item>
+    </string-array>
+    <string-array name="dp20">
+        <item>Chiquimula</item>
+        <item>San José La Arada</item>
+        <item>San Juan Ermita</item>
+        <item>Jocotán</item>
+        <item>Camotán</item>
+        <item>Olopa</item>
+        <item>Esquipulas</item>
+        <item>Concepción Las Minas</item>
+        <item>Quetzaltepeque</item>
+        <item>San Jacinto</item>
+        <item>Ipala</item>
+    </string-array>
+    <string-array name="dp21">
+        <item>Jalapa</item>
+        <item>San Pedro Pinula</item>
+        <item>San Luis Jilotepeque</item>
+        <item>San Manuel Chaparrón</item>
+        <item>San Carlos Alzatate</item>
+        <item>Monjas</item>
+        <item>Mataquescuintla</item>
+    </string-array>
+    <string-array name="dp22">
+        <item>Jutiapa</item>
+        <item>El Progreso</item>
+        <item>Santa Catarina Mita</item>
+        <item>Agua Blanca</item>
+        <item>Asunción Mita</item>
+        <item>Yupiltepeque</item>
+        <item>Atescatempa</item>
+        <item>Jerez</item>
+        <item>El Adelanto</item>
+        <item>Zapotitlán</item>
+        <item>Comapa</item>
+        <item>Jalpatagua</item>
+        <item>Conguaco</item>
+        <item>Moyuta</item>
+        <item>Pasaco</item>
+        <item>San José Acatempa</item>
+        <item>Quesada</item>
+    </string-array>
+    <string-array name="tiposSitio">
+        <item>Lago</item>
+        <item>Rio</item>
+        <item>Sitio Arqueologico</item>
+        <item>Mirador</item>
+        <item>Museo</item>
+        <item>Valneario</item>
+        <item>Comercio</item>
+        <item>Volcan</item>
+        <item>Montaña</item>
+        <item>Otro</item>
+    </string-array>
+    <string-array name="codMunis">
+        <item>101_Guatemala</item>
+        <item>102_Santa Catarina Pinula</item>
+        <item>103_San José Pinula</item>
+        <item>104_San José del Golfo</item>
+        <item>105_Palencia</item>
+        <item>106_Chinautla</item>
+        <item>107_San Pedro Ayampuc</item>
+        <item>108_Mixco</item>
+        <item>109_San Pedro Sacatepéquez</item>
+        <item>110_San Juan Sacatepéquez</item>
+        <item>111_San Raymundo</item>
+        <item>112_Chuarrancho</item>
+        <item>113_Fraijanes</item>
+        <item>114_Amatitlán</item>
+        <item>115_Villa Nueva</item>
+        <item>116_Villa Canales</item>
+        <item>117_Petapa</item>
+        <item>218_Guastatoya</item>
+        <item>219_Morazán</item>
+        <item>220_San Agustín Acasaguastlán</item>
+        <item>221_San Cristóbal Acasaguastlán</item>
+        <item>222_El Jícaro</item>
+        <item>223_Sansare</item>
+        <item>224_Sanarate</item>
+        <item>225_San Antonio la Paz</item>
+        <item>326_Antigua Guatemala</item>
+        <item>327_Jocotenango</item>
+        <item>328_Pastores</item>
+        <item>329_Sumpango</item>
+        <item>330_Santo Domingo Xenacoj</item>
+        <item>331_Santiago Sacatepéquez</item>
+        <item>332_San Bartolomé Milpas Altas</item>
+        <item>333_San Lucas Sacatepéquez</item>
+        <item>334_Santa Lucía Milpas Altas</item>
+        <item>335_Magdalena Milpas Altas</item>
+        <item>336_Santa María de Jesús</item>
+        <item>337_Ciudad Vieja</item>
+        <item>338_San Miguel Dueñas</item>
+        <item>339_Alotenango</item>
+        <item>340_San Antonio Aguas Calientes</item>
+        <item>341_Santa Catarina Barahona</item>
+        <item>442_Chimaltenango</item>
+        <item>443_San José Poaquil</item>
+        <item>444_San Martín Jilotepeque</item>
+        <item>445_Comalapa</item>
+        <item>446_Santa Apolonia</item>
+        <item>447_Tecpán Guatemala</item>
+        <item>448_Patzún</item>
+        <item>449_Pochuta</item>
+        <item>450_Patzicía</item>
+        <item>451_Santa Cruz Balanyá</item>
+        <item>452_Acatenango</item>
+        <item>453_Yepocapa</item>
+        <item>454_San Andrés Itzapa</item>
+        <item>455_Parramos</item>
+        <item>456_Zaragoza</item>
+        <item>457_El Tejar</item>
+        <item>558_Escuintla</item>
+        <item>559_Santa Lucía Cotzumalguapa</item>
+        <item>560_La Democracia</item>
+        <item>561_Siquinalá</item>
+        <item>562_Masagua</item>
+        <item>563_Tiquisate</item>
+        <item>564_La Gomera</item>
+        <item>565_Guanagazapa</item>
+        <item>566_San José</item>
+        <item>567_Iztapa</item>
+        <item>568_Palín</item>
+        <item>569_San Vicente Pacaya</item>
+        <item>570_Nueva Concepción</item>
+        <item>671_Cuilapa</item>
+        <item>672_Barberena</item>
+        <item>673_Santa Rosa de Lima</item>
+        <item>674_Casillas</item>
+        <item>675_San Rafael las Flores</item>
+        <item>676_Oratorio</item>
+        <item>677_San Juan Tecuaco</item>
+        <item>678_Chiquimulilla</item>
+        <item>679_Taxisco</item>
+        <item>680_Santa María Ixhuatán</item>
+        <item>681_Guazacapán</item>
+        <item>682_Santa Cruz Naranjo</item>
+        <item>683_Pueblo Nuevo Viñas</item>
+        <item>684_Nueva Santa Rosa</item>
+        <item>785_Sololá</item>
+        <item>786_San José Chacayá</item>
+        <item>787_Santa María Visitación</item>
+        <item>788_Santa Lucía Utatlán</item>
+        <item>789_Nahualá</item>
+        <item>790_Santa Catarina Ixtahuacán</item>
+        <item>791_Santa Clara la Laguna</item>
+        <item>792_Concepción</item>
+        <item>793_San Andrés Semetabaj</item>
+        <item>794_Panajachel</item>
+        <item>795_Santa Catarina Palopó</item>
+        <item>796_San Antonio Palopó</item>
+        <item>797_San Lucas Tolimán</item>
+        <item>798_Santa Cruz la Laguna</item>
+        <item>799_San Pablo la Laguna</item>
+        <item>7100_San Marcos la Laguna</item>
+        <item>7101_San Juan la Laguna</item>
+        <item>7102_San Pedro la Laguna</item>
+        <item>7103_Santiago Atitlán</item>
+        <item>8104_Totonicapán</item>
+        <item>8105_San Cristóbal Totonicapán</item>
+        <item>8106_San Francisco el Alto</item>
+        <item>8107_San Andrés Xecul</item>
+        <item>8108_Momostenango</item>
+        <item>8109_Santa María Chiquimula</item>
+        <item>8110_Santa Lucía la Reforma</item>
+        <item>8111_San Bartolo</item>
+        <item>9112_Quetzaltenango</item>
+        <item>9113_Salcajá</item>
+        <item>9114_Olintepeque</item>
+        <item>9115_San Carlos Sija</item>
+        <item>9116_Sibilia</item>
+        <item>9117_Cabricán</item>
+        <item>9118_Cajolá</item>
+        <item>9119_San Miguel Siguilá</item>
+        <item>9120_Ostuncalco</item>
+        <item>9121_San Mateo</item>
+        <item>9122_Concepción Chiquirichapa</item>
+        <item>9123_San Martín Sacatepéquez</item>
+        <item>9124_Almolonga</item>
+        <item>9125_Cantel</item>
+        <item>9126_Huitán</item>
+        <item>9127_Zunil</item>
+        <item>9128_Colomba</item>
+        <item>9129_San Francisco la Unión</item>
+        <item>9130_El Palmar</item>
+        <item>9131_Coatepeque</item>
+        <item>9132_Génova</item>
+        <item>9133_Flores Costa Cuca</item>
+        <item>9134_La Esperanza</item>
+        <item>9135_Palestina de los Altos</item>
+        <item>10136_Mazatenango</item>
+        <item>10137_Cuyotenango</item>
+        <item>10138_San Francisco Zapotitlán</item>
+        <item>10139_San Bernardino</item>
+        <item>10140_San José el Idolo</item>
+        <item>10141_Santo Domingo Suchitepéquez</item>
+        <item>10142_San Lorenzo</item>
+        <item>10143_Samayac</item>
+        <item>10144_San Pablo Jocopilas</item>
+        <item>10145_San Antonio Suchitepéquez</item>
+        <item>10146_San Miguel Panán</item>
+        <item>10147_San Gabriel</item>
+        <item>10148_Chicacao</item>
+        <item>10149_Patulul</item>
+        <item>10150_Santa Bárbara</item>
+        <item>10151_San Juan Bautista</item>
+        <item>10152_Santo Tomás la Unión</item>
+        <item>10153_Zunilito</item>
+        <item>10154_Pueblo Nuevo</item>
+        <item>10155_Río Bravo</item>
+        <item>10156_San José La Máquina</item>
+        <item>11157_Retalhuleu</item>
+        <item>11158_San Sebastián</item>
+        <item>11159_Santa Cruz Muluá</item>
+        <item>11160_San Martín Zapotitlán</item>
+        <item>11161_San Felipe</item>
+        <item>11162_San Andrés Villa Seca</item>
+        <item>11163_Champerico</item>
+        <item>11164_Nuevo San Carlos</item>
+        <item>11165_El Asintal</item>
+        <item>12166_San Marcos</item>
+        <item>12167_San Pedro Sacatepéquez</item>
+        <item>12168_San Antonio Sacatepéquez</item>
+        <item>12169_Comitancillo</item>
+        <item>12170_San Miguel Ixtahuacán</item>
+        <item>12171_Concepción Tutuapa</item>
+        <item>12172_Tacaná</item>
+        <item>12173_Sibinal</item>
+        <item>12174_Tajumulco</item>
+        <item>12175_Tejutla</item>
+        <item>12176_San Rafael Pié de la Cuesta</item>
+        <item>12177_Nuevo Progreso</item>
+        <item>12178_El Tumbador</item>
+        <item>12179_El Rodeo</item>
+        <item>12180_Malacatán</item>
+        <item>12181_Catarina</item>
+        <item>12182_Ayutla</item>
+        <item>12183_Ocós</item>
+        <item>12184_San Pablo</item>
+        <item>12185_El Quetzal</item>
+        <item>12186_La Reforma</item>
+        <item>12187_Pajapita</item>
+        <item>12188_Ixchiguán</item>
+        <item>12189_San José Ojetenán</item>
+        <item>12190_San Cristóbal Cucho</item>
+        <item>12191_Sipacapa</item>
+        <item>12192_Esquipulas Palo Gordo</item>
+        <item>12193_Río Blanco</item>
+        <item>12194_San Lorenzo</item>
+        <item>12195_La Blanca</item>
+        <item>13196_Huehuetenango</item>
+        <item>13197_Chiantla</item>
+        <item>13198_Malacatancito</item>
+        <item>13199_Cuilco</item>
+        <item>13200_Nentón</item>
+        <item>13201_San Pedro Necta</item>
+        <item>13202_Jacaltenango</item>
+        <item>13203_Soloma</item>
+        <item>13204_Ixtahuacán</item>
+        <item>13205_Santa Bárbara</item>
+        <item>13206_La Libertad</item>
+        <item>13207_La Democracia</item>
+        <item>13208_San Miguel Acatán</item>
+        <item>13209_San Rafael la Independencia</item>
+        <item>13210_Todos Santos Cuchumatán</item>
+        <item>13211_San Juan Atitán</item>
+        <item>13212_Santa Eulalia</item>
+        <item>13213_San Mateo Ixtatán</item>
+        <item>13214_Colotenango</item>
+        <item>13215_San Sebastián Huehuetenango</item>
+        <item>13216_Tectitán</item>
+        <item>13217_Concepción Huista</item>
+        <item>13218_San Juan Ixcoy</item>
+        <item>13219_San Antonio Huista</item>
+        <item>13220_San Sebastián Coatán</item>
+        <item>13221_Barillas</item>
+        <item>13222_Aguacatán</item>
+        <item>13223_San Rafael Petzal</item>
+        <item>13224_San Gaspar Ixchil</item>
+        <item>13225_Santiago Chimaltenango</item>
+        <item>13226_Santa Ana Huista</item>
+        <item>13227_Unión Cantinil</item>
+        <item>14228_Santa Cruz del Quiché</item>
+        <item>14229_Chiché</item>
+        <item>14230_Chinique</item>
+        <item>14231_Zacualpa</item>
+        <item>14232_Chajul</item>
+        <item>14233_Chichicastenango</item>
+        <item>14234_Patzité</item>
+        <item>14235_San Antonio Ilotenango</item>
+        <item>14236_San Pedro Jocopilas</item>
+        <item>14237_Cunén</item>
+        <item>14238_San Juan Cotzal</item>
+        <item>14239_Joyabaj</item>
+        <item>14240_Nebaj</item>
+        <item>14241_San Andrés Sajcabajá</item>
+        <item>14242_Uspantán</item>
+        <item>14243_Sacapulas</item>
+        <item>14244_San Bartolomé Jocotenango</item>
+        <item>14245_Canillá</item>
+        <item>14246_Chicamán</item>
+        <item>14247_Ixcán</item>
+        <item>14248_Pachalum</item>
+        <item>15249_Salamá</item>
+        <item>15250_San Miguel Chicaj</item>
+        <item>15251_Rabinal</item>
+        <item>15252_Cubulco</item>
+        <item>15253_Granados</item>
+        <item>15254_El Chol</item>
+        <item>15255_San Jerónimo</item>
+        <item>15256_Purulhá</item>
+        <item>16257_Cobán</item>
+        <item>16258_Santa Cruz Verapaz</item>
+        <item>16259_San Cristóbal Verapaz</item>
+        <item>16260_Tactic</item>
+        <item>16261_Tamahú</item>
+        <item>16262_Tucurú</item>
+        <item>16263_Panzós</item>
+        <item>16264_Senahú</item>
+        <item>16265_San Pedro Carchá</item>
+        <item>16266_San Juan Chamelco</item>
+        <item>16267_Lanquín</item>
+        <item>16268_Cahabón</item>
+        <item>16269_Chisec</item>
+        <item>16270_Chahal</item>
+        <item>16271_Fray Bartolomé de las Casas</item>
+        <item>16272_Santa Catalina la Tinta</item>
+        <item>16273_Raxruhá</item>
+        <item>17274_Flores</item>
+        <item>17275_San José</item>
+        <item>17276_San Benito</item>
+        <item>17277_San Andrés</item>
+        <item>17278_La Libertad</item>
+        <item>17279_San Francisco</item>
+        <item>17280_Santa Ana</item>
+        <item>17281_Dolores</item>
+        <item>17282_San Luis</item>
+        <item>17283_Sayaxché</item>
+        <item>17284_Melchor de Mencos</item>
+        <item>17285_Poptún</item>
+        <item>17286_Las Cruces</item>
+        <item>17287_El Chal</item>
+        <item>18288_Puerto Barrios</item>
+        <item>18289_Livingston</item>
+        <item>18290_El Estor</item>
+        <item>18291_Morales</item>
+        <item>18292_Los Amates</item>
+        <item>19293_Zacapa</item>
+        <item>19294_Estanzuela</item>
+        <item>19295_Río Hondo</item>
+        <item>19296_Gualán</item>
+        <item>19297_Teculután</item>
+        <item>19298_Usumatlán</item>
+        <item>19299_Cabañas</item>
+        <item>19300_San Diego</item>
+        <item>19301_La Unión</item>
+        <item>19302_Huité</item>
+        <item>19303_San Jorge</item>
+        <item>20304_Chiquimula</item>
+        <item>20305_San José La Arada</item>
+        <item>20306_San Juan Ermita</item>
+        <item>20307_Jocotán</item>
+        <item>20308_Camotán</item>
+        <item>20309_Olopa</item>
+        <item>20310_Esquipulas</item>
+        <item>20311_Concepción Las Minas</item>
+        <item>20312_Quetzaltepeque</item>
+        <item>20313_San Jacinto</item>
+        <item>20314_Ipala</item>
+        <item>21315_Jalapa</item>
+        <item>21316_San Pedro Pinula</item>
+        <item>21317_San Luis Jilotepeque</item>
+        <item>21318_San Manuel Chaparrón</item>
+        <item>21319_San Carlos Alzatate</item>
+        <item>21320_Monjas</item>
+        <item>21321_Mataquescuintla</item>
+        <item>22322_Jutiapa</item>
+        <item>22323_El Progreso</item>
+        <item>22324_Santa Catarina Mita</item>
+        <item>22325_Agua Blanca</item>
+        <item>22326_Asunción Mita</item>
+        <item>22327_Yupiltepeque</item>
+        <item>22328_Atescatempa</item>
+        <item>22329_Jerez</item>
+        <item>22330_El Adelanto</item>
+        <item>22331_Zapotitlán</item>
+        <item>22332_Comapa</item>
+        <item>22333_Jalpatagua</item>
+        <item>22334_Conguaco</item>
+        <item>22335_Moyuta</item>
+        <item>22336_Pasaco</item>
+        <item>22337_San José Acatempa</item>
+        <item>22338_Quesada</item>
+    </string-array>
+</resources>

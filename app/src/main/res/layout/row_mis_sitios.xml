@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/conImgSitio"
+        android:scaleType="fitXY"
+        android:layout_width="150dp"
+        android:layout_height="200dp" />
+    <LinearLayout
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/conNombreSitio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Nombre"/>
+        <TextView
+            android:id="@+id/conDepartamento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Departamento"/>
+        <TextView
+            android:id="@+id/conMunicipio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Municipio"/>
+        <TextView
+            android:id="@+id/conTipoSitio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Tipo Sitio"/>
+        <TextView
+            android:id="@+id/conAmenidades"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Amenidades:"/>
+        <TextView
+            android:id="@+id/conParqueo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:visibility="gone"
+            android:text="  - Parqueo"/>
+        <TextView
+            android:id="@+id/conWiFi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:visibility="gone"
+            android:text="  - WiFi"/>
+        <TextView
+            android:id="@+id/conHoteles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:visibility="gone"
+            android:text="  - Hoteles Cercanos"/>
+        <TextView
+            android:id="@+id/conDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="Amenidades:"/>
+    </LinearLayout>
+
+</LinearLayout>
